@@ -27,7 +27,7 @@ const createLinkedList = (n) => {
     return head;
 }
 
-// console.log(createLinkedList(2));
+console.log(createLinkedList(3));
 module.exports = {
     createLinkedList,
     node

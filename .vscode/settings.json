@@ -1,0 +1,20 @@
+{
+    "fileHeaderComment.parameter": {
+        "*": {
+            "author": "Divyanshu Kulshreshtha",
+            "createdDate": "${date} ${time24h}"  // Stores the created date once
+        }
+    },
+    "fileHeaderComment.template": {
+        "*": [
+            "/*",
+            " * Created on: ${createdDate}",
+            " * Last Updated: ${date} ${time24h}", 
+            " *",
+            " * Author: ${author}",
+            " */"
+        ]
+    },
+    "fileHeaderComment.autoAdd": true,   // Auto-add header to new files
+    "fileHeaderComment.autoUpdate": true // Auto-update "Last Updated" on save
+}
